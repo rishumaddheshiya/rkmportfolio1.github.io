@@ -1,0 +1,187 @@
+
+.menu{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar{
+    max-height: 40px;
+    padding: 5px 3%;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+.navbar ul li{
+    font-size: 1.2rem;
+    
+    margin: 0px 10px;
+}
+.heading{
+    font-size: 1.25rem;
+    width: 30vw;
+}
+.message{
+    width: 40vw;
+}
+@media (max-width:1035px){
+    .navbar{
+        padding: 5px 2%;
+    }
+    .navbar ul li{
+        padding: 5px 0%;
+        display: flex;
+        
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+    
+        font-size: 1.0rem;
+        
+    }
+    .heading{
+       font-size: 1.1rem;
+    }
+    #Home{
+        flex-direction: column;
+        height: 630px;
+        justify-content: center;
+        align-items: center;
+     }
+     .resume{
+        width: 80%;
+        margin: 20px 50px;
+     }
+     #About{
+        flex-direction: column;
+        height: 800px;
+     }
+     .left1{
+        width: 30vw;
+        margin: auto;
+     }
+   .right1{
+    width: 50vw;
+    margin: auto;
+   }
+   .Myprojects{
+    flex-direction: column;
+   }
+   .Contactme{
+    flex-direction: column;
+   }
+   .message{
+    width: 50vw;
+   }
+   .msg{
+    width: 50vw;
+   }
+}
+@media (max-width:857px){
+    .msg{
+        width: 60vw;
+       }
+    .navbar{
+        padding: 5px 1%;
+    }
+    .navbar ul li{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 0.75rem;
+    }
+    .heading{
+        font-size: 1.0rem;
+     }
+     #About{
+        flex-direction: column;
+        height: 1000px;
+     }
+     .message{
+        width: 55vw;
+       }
+     
+}
+@media (max-width:695px){
+    .navbar{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 55px;
+    }
+    .heading{
+        margin-top: -5px;
+    }
+    .menu{
+        width: 100vw;
+    }
+    #About{
+        flex-direction: column;
+        height: 1200px;
+     }
+     .left1{
+        width: 50vw;
+     }
+     .left{
+        width: 65vw;
+     }
+     .mobt{
+        font-size: 25px;
+     }
+     .emailt{
+        margin: 5px;
+        font-size: 20px;
+        display: inline;
+     }
+     .message{
+        width: 60vw;
+       }
+       .msg{
+        width: 55vw;
+       }
+     
+
+}
+
+@media (max-width:550px){ 
+
+.msg{
+    width: 60vw;
+
+}
+
+.name{
+    width: 80%;
+
+}
+.email{
+    width: 80%;
+    
+}
+textarea{
+    width: 80%;
+    
+}
+}
+@media (max-width:450px){ 
+
+    .msg{
+        width: 70vw;
+    
+    }
+    
+    .name{
+        width: 70%;
+    
+    }
+    .email{
+        width: 70%;
+        
+    }
+    textarea{
+        width: 70%;
+        
+    }
+    }
